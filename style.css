@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    background: linear-gradient(45deg, #18dfac, #5541c3);
+    background-size: 100vw 100vh;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.time {
+    position: absolute;
+    width: 100vw;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    font-size: 60px;
+    text-align: center;
+}
+
+div.btn {
+    text-align: center;
+}
+
+button {
+    font-size: 38px;
+    margin: 40px;
+    padding: 10px 20px;
+    background-color: rgb(52, 156, 52);
+    color: #fff;
+    border: 1px solid white;
+    border-radius: 20px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+button.reset {
+    background-color: rgb(214, 203, 46);
+}
